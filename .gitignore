@@ -35,3 +35,6 @@
 
 /vendor/bundle
 .keep
+.env
+.envrc
+.DS_Store
