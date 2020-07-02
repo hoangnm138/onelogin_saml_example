@@ -6,25 +6,21 @@ Getting Started
 ---------------
 1. Download the project code
 2. Run: `bundle install`
-3. Start rails server: `rails s`
-4. Go to http://localhost:3000 and try login/logout
+3. Setup variables in `.env` file
+4. Start rails server: `rails s`
+5. Go to http://localhost:3000 and try login/logout
 
-Things you may want to cover:
+Overview
+--------
+This example use the Ruby SAML library for ruby.
+The Ruby SAML library is for implementing the client side of a SAML authorization, i.e. it provides a means for managing authorization initialization and confirmation requests from identity providers.
 
-* Ruby version
+SAML authorization is a two step process and you are expected to implement support for both.
 
-* System dependencies
+`https://github.com/onelogin/ruby-saml`
 
-* Configuration
+Demo
+----
+Base on
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`https://github.com/onelogin/ruby-saml-example`
